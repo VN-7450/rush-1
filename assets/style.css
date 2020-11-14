@@ -1,7 +1,8 @@
 .connexion{
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.288);
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    color: white;
     width: 50%;
     border-radius: 5px;
     border-color: white;
@@ -13,6 +14,6 @@
     text-align: start;
 }
 
-body{
-    background-color: rgb(99, 99, 99);
+ body{
+    background-image: url(./img/web-design-2038872_1920.jpg);
 }
