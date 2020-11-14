@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+<<<<<<< HEAD
 	<title>Rush 1 - Vivian & Hugo</title>
 
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+=======
+	<meta charset="utf-8"/>
+	<title>my_form</title>
+>>>>>>> 0318357135e5624794f557711c9ad09b9344dc86
 </head>
 <body>
 	<div class="connexion">
@@ -12,15 +17,19 @@
 		<input type="radio" name="sexe" value="H"> Homme
 		<input type="radio" name="sexe" value="F"> Femme
 		<input type="radio" name="sexe" value="A"> Autre
+<<<<<<< HEAD
 	</div>
+=======
+	</div><br>
+>>>>>>> 0318357135e5624794f557711c9ad09b9344dc86
 	  
 	<label for="civilite">Civilité :</label>
 	<select id="civ">
-	  <option value="monsieur" name="civ">M.</option>
-	  <option value="madame" name="civ">Mme.</option>
+	  <option value="monsieur" id="civM">M.</option>
+	  <option value="madame" id="civF">Mme.</option>
 	</select><br>
 
-	<div><label for="">Nom :</label> <input id="lastname" name="subscriber_last_name" type="text" minlength="2" required/></div>
+	<div><label for="nom">Nom :</label> <input id="nom" name="name_user" type="text" minlength="2" required/></div>
 
 	<label for="email">Email :</label>
 	<input id="email" type="email" placeholder="prenom.nom@qqch.com" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@qqch.eu"><br>
@@ -63,13 +72,13 @@
 	  <div>
 		  <input type="checkbox" id="informatique" name="informatique">		  
 		  <label for="informatique">Informatique</label>
-		</div></label><br>
+		</div>
 
 	<label for="token">
 		<input id="token" name="token" type="hidden" value="my first website">
 	</label>
 		
-	<label for="submit">
+	<label for="connextion">
 	<button type="submit">Se connecter</button>
 	</label>
 	</div>
