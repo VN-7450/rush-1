@@ -5,11 +5,10 @@
     color: white;
     width: 50%;
     border-radius: 5px;
-    border-color: white;
-    border-width: 10px;
+    border-width: 5px;
     padding: 10px;
     margin: 0 auto;
-    margin-top: 180px;
+    margin-top: 130px;
     line-height: 200%;
     text-align: start;
 }
