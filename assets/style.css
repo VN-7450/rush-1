@@ -1,0 +1,18 @@
+.connexion{
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 50%;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 180px;
+    line-height: 200%;
+    text-align: start;
+}
+
+body{
+    background-color: rgb(99, 99, 99);
+}

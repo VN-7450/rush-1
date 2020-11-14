@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Rush 1 - Vivian & Hugo</title>
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 <body>
-	
+	<div class="connexion">
 	<div><label for="genre">Sexe :</label>
-		<input type="radio" name="sexe" value="H"> homme
-		<input type="radio" name="sexe" value="F"> femme
-		<input type="radio" name="sexe" value="A"> autre
-	</div><br>
+		<input type="radio" name="sexe" value="H"> Homme
+		<input type="radio" name="sexe" value="F"> Femme
+		<input type="radio" name="sexe" value="A"> Autre
+	</div>
 	  
 	<label for="civilite">Civilité :</label>
 	<select id="civ">
@@ -36,10 +39,10 @@
 
 	<label for="age">Date de naissance</label>
 	<input type="date" id="age" name="age"
-		value="2020-11-14"
+		value=""
 		min="1950-01-01" max="2020-12-31"><br>
 		
-	<label for="hobies">Choisi tes Hobies :</label>
+	<label for="hobies">Choisis tes Hobbies :</label>
 	  <div>
 		<input type="checkbox" id="jeuxvideo" name="jeuxvideo"
 				   checked>
@@ -69,5 +72,6 @@
 	<label for="submit">
 	<button type="submit">Se connecter</button>
 	</label>
+	</div>
 </body>
 </html>
