@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Rush 1 - Vivian & Hugo</title>
-	<link rel="stylesheet" type="text/css" href="./assets/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/my_style.css">
 </head>
 <body>
+
+	<!-- debut Div module connexion -->
+	<div class="connexion">  
 	<form action="#" method="get" id="inscription">
 	<div><label for="genre">Sexe :</label>
 		<input type="radio" name="sexe" value="H"> Homme
@@ -36,12 +39,12 @@
 		pattern="https://.*" size="30"
 		required><br>
 
-	<label for="age">Date de naissance</label>
+	<label for="age">Date de naissance :</label>
 	<input type="date" id="age" name="age"
 		value="2020-11-14"
 		min="1950-01-01" max="2020-12-31"><br>
 		
-	<label for="hobies">Choisi tes Hobies :</label>
+	<label for="hobies">Choisis tes Hobbies :</label>
 	  <div>
 		<input type="checkbox" id="jeuxvideo" name="jeuxvideo"
 				   checked>
@@ -68,10 +71,14 @@
 		<input id="token" name="token" type="hidden" value="my first website">
 	</label>
 		
-	<label for="connextion">
+	<label for="connexion">
 	<button type="submit">Se connecter</button>
 	</label>
 	</form>
+	</div>
+	<!-- Fin Div module connexion -->
+
+	<!-- SCRIPT JAVASCRIPT -->
 	<script type="text/javascript" src="script.js"></script>
 
 </body>
