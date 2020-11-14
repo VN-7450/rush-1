@@ -22,3 +22,6 @@ input{
  body{
     background-image: url(./img/web-design-2038872_1920.jpg);
 }
+.erreur{
+    background: red;
+}
