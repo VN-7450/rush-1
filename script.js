@@ -5,7 +5,7 @@ var champ_email = form_inscription.elements["email"];
 var champ_phone = form_inscription.elements["phone"];
 var champ_url = form_inscription.elements["url"];
 var champ_age = form_inscription.elements["age"];
-var champ_hobies = form_inscription.elements["hobies"];
+var champ_hobies = form_inscription.elements["hobbies"];
 var form_inscription = document.getElementById("inscription");
 var form_ok = true;
 if (champ) {
