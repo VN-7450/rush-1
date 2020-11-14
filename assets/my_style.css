@@ -19,6 +19,14 @@
     text-align: start;
 }
 
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #2ba5bb;
+    font-size: large;
+    text-align: center;
+}
+
 input{
     height: auto;
     padding: 12px 20px;
