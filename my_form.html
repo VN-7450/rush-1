@@ -8,21 +8,34 @@
 <body>
 
 	<!-- debut Div module connexion -->
-	<div class="connexion">  
-	<form action="#" method="get" id="inscription">
-	<div><label for="genre"><b>Sexe :</b></label>
-		<input type="radio" name="sexe" value="H"> Homme
-		<input type="radio" name="sexe" value="F"> Femme
-		<input type="radio" name="sexe" value="A"> Autre
-	</div><br>
+	<div class="connexion">
+	<form action="my_form.html" method="post">
+	<div>
+		<p>Sexe :</p>
+		<input type="radio" id="H" name="sexe" value="sexe">
+		<label for="H">Homme</label>
+	</div>
+	<div>
+		<input type="radio" id="F" name="sexe" value="sexe">
+		<label for="F">Femme</label>
+	</div>
+	<div>
+		<input type="radio" id="A" name="sexe" value="sexe">
+		<label for="A">Autre</label>
+	</div>
 	  
-	<label for="civilite"><b>Civilité :</b></label>
-	<select id="civ">
-	  <option value="monsieur" id="civM">M.</option>
-	  <option value="madame" id="civF">Mme.</option>
-	</select><br>
+	<div>
+		<select name="civilite" id="civilite">
+			<option value="">Civilité</option>
+			<option value="monsieur">M.</option>
+			<option value="mdme">Mme.</option>
+		</select>
+	</div>
 
-	<div><label for="nom"><b>Nom :</b></label> <input id="nom" name="name_user" type="text" minlength="2" required/></div>
+	<div>
+		<label for="nom"><b>Nom :</b></label>
+		<input id="nom" name="name_user" type="text" minlength="2" required/>
+	</div>
 
 	<label for="email"><b>Email :</b></label>
 	<input id="email" type="email" placeholder="prenom.nom@qqch.com"><br>
@@ -44,43 +57,42 @@
 		value=""
 		min="1950-01-01" max="2020-12-31"><br>
 		
-	<label for="hobbies"><b>Choisis tes Hobbies :</b></label>
-	  <div>
-		<input type="checkbox" id="jeuxvideo" name="jeuxvideo"
-				   checked>
-		<label for="jeuxvideo">Jeux Vidéo</label>
+		<div>
+			<p>Hobbies:</p>
+			<input type="checkbox" id="JV" name="jeuxvideo" value="jeuxvideo">
+			<label for="JV">Jeux Vidéo</label>
 		</div>
-	  <div>
-			<input type="checkbox" id="cinema" name="cinema">		  
-			<label for="cinema">Cinéma</label>
+		<div>
+			<input type="checkbox" id="Cine" name="cinema" value="cinema">
+			<label for="Cine">Cinéma</label>
 		</div>
-	  <div>
-		  <input type="checkbox" id="lecture" name="lecture">		  
-		  <label for="lecture">Lecture</label>
+		<div>
+			<input type="checkbox" id="Lec" name="lecture" value="lescture">
+			<label for="Lec">Lecture</label>
 		</div>
-	  <div>
-		  <input type="checkbox" id="sport" name="sport">		  
-		  <label for="sport">Sport</label>
+		<div>
+			<input type="checkbox" id="Sp" name="sport" value="sport">
+			<label for="Sp">Sport</label>
 		</div>
-	  <div>
-		  <input type="checkbox" id="informatique" name="informatique">		  
-		  <label for="informatique">Informatique</label>
+		<div>
+			<input type="checkbox" id="Infor" name="informatique" value="informatique">
+			<label for="Infor">Informatique</label>
 		</div>
 
-	<label for="token">
-		<input id="token" name="token" type="hidden" value="my first website">
-	</label>
-		
+		<div>
+			<input id="Tok" name="token" type="hidden" value="my first website">
+		</div>
+	
 	<label for="connexion">
 	<button type="submit">Se connecter</button>
 	<button href="connexion" type="submit" class="button1 bouncy">Facebark</button>
 	</label>
 	</form>
-	</div>
+</div>
 	<!-- Fin Div module connexion -->
 
 	<!-- SCRIPT JAVASCRIPT -->
-	<script type="text/javascript" src="script.js"></script>
+	<script src="script.js"></script>
 
 </body>
 </html>
